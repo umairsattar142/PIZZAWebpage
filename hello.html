@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Delight</title>
+<style>
+  /* Inline styles for demonstration purposes only. Actual styles should go in styles.css */
+  header {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .slider-container {
+    border: 1px solid black;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .slider-content {
+    display: flex;
+    animation: slide 5s infinite linear;
+  }
+  
+  .slider-content img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .menu-images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .menu-images-container img {
+    width: 30%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .menu-images-container img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Pizza Delight</h1>
+  </div>
+  <div>
+    <a href="#">Menu</a> |
+    <a href="#">Order Online</a> |
+    <a href="#">Contact Us</a>
+    <img src="basket_icon.png" alt="Basket">
+  </div>
+</header>
+
+<div class="slider-container">
+  <div class="slider-content">
+    <img src= alt="Pizza Slide 1">
+    <img src= alt="Pizza Slide 2">
+    <img src="C:\Users\Hp\OneDrive\Desktop\photo-1604382354936-07c5d9983bd3.avif" alt="Pizza Slide 3">
+  </div>
+</div>
+
+<div class="menu-images-container">
+  <img src="C:\Users\Hp\OneDrive\Desktop\photo-1604382354936-07c5d9983bd3.avif" alt="Supreme Pizza 1">
+  <img src="C:\Users\Hp\OneDrive\Desktop\photo-1604382354936-07c5d9983bd3.avif" alt="Fajita Pizza ">
+  <img src="C:\Users\Hp\OneDrive\Desktop\photo-1604382354936-07c5d9983bd3.avif" alt="Tikka Pizza ">
+</div>
+
+<div class="contact-form-container">
+  <section class="contact-form">
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Contact Us Webpage</title>
+    </head>
+    <body>
+  
+    <div>
+      <h2>Contact Us</h2>
+      <form action="/contactus webpage" method="get">
+        <div class="label">
+          <label for="name">Your Name:</label>
+        </div><br>
+        <div>
+          <input type="text" id="name" name="name" placeholder="umair sattar ">
+        </div><br>
+        <div>
+          <label for="email">Your Email:</label>
+        </div><br>
+        <div>
+          <input type="email" id="email" name="email" placeholder="abcd@gmail.com">
+        </div><br>
+        <div class="label">
+          <label for="phone">Your Phone Number:</label>
+        </div><br>
+        <div>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        </div><br>
+  
+        <div>
+          <label for="message">Your Message:</label>
+        </div><br>
+        <div>
+          <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+        </div><br>
+        <div>
+          <button type="submit" class="button">Submit</button><br><br>
+          <button type="reset" class="button">Reset</button>
+        </div>
+      </form>
+    </div>
+  
+    </body>
+    </html>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2024 Pizza Delight</p>
+</footer>
+
+</body>
+</html>
