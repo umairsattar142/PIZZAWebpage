@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Delight</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  /* Inline styles for demonstration purposes only. Actual styles should go in styles.css */
+  header {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .slider-container {
+    border: 1px solid black;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .slider-content {
+    display: flex;
+  }
+  
+  .slider-content img {
+    width: 100%;
+  }
+
+  .menu-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  
+  /* for 180 rotation */
+  .menu-images-container .card {
+    width: calc(30% - 20px); /* Adjusted width to accommodate space between cards */
+    margin-bottom: 20px; /* Added margin to create space between cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .menu-images-container .card img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .menu-images-container .card:hover img {
+    transform: rotateY(180deg);
+  }
+
+  /* for 360 rotation */
+  .menu-images-container .card.special-rotation img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .menu-images-container .card.special-rotation:hover img  {
+    transform: rotate(360deg);
+  }
+  
+  .special-heading {
+    text-align: center;
+  }
+
+  /* Change button color to green on hover */
+  .button:hover {
+    background-color: darkgreen;
+  }
+  .button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Pizza Delight</h1>
+  </div>
+  <div>
+    <a href="#"style="font-size: 20px; color: white;">Menu</a> 
+    <a href="#"style="font-size: 20px; color: white;">Specials</a> 
+    <a href="#"style="font-size: 20px; color: white;">Order Online</a> 
+    <a href="#"style="font-size: 20px; color: white;">Contact Us</a>
+    <i class="fas fa-shopping-cart" style="font-size: 20px; cursor: pointer;"></i>
+  </div>
+</header>
+
+<div class="slider-container">
+  <div class="slider-content">
+    <img src="C:\Users\usatt\OneDrive\Desktop\img1.jpg"alt="Pizza Slide">
+  </div>
+</div>
+
+<div class="special-heading">
+  <h1>TODAY'S SPECIAL</h1>
+</div>
+
+<div class="menu-images-container">
+  <div class="card special-rotation">
+    <img src="C:\Users\usatt\OneDrive\Desktop\s1.jpg" alt="Pizza 1">
+    <div class="special-heading"><h3 class="pizza-name">Supreme pizza</h3> </div>
+  </div>
+  
+   <div class="card">
+    <img src="C:\Users\usatt\OneDrive\Desktop\s2.jpg" alt="Pizza 2">
+    <div class="special-heading"><h3 class="pizza-name">Fajita Pizza</h3> </div>
+  </div>
+  <div class="card special-rotation">
+    <img src="C:\Users\usatt\OneDrive\Desktop\s3.jpg" alt="Pizza 3">
+    <div class="special-heading"><h3 class="pizza-name">Margrita Pizza</h3> </div>
+  </div>
+</div>
+
+<div class="special-heading">
+  <h2>WHAT OUR CUSTOMERS SAY</h2>
+  <p>
+"The best pizza in town! I can't get enough of their delicious crust and fresh toppings."</p><p>-John D.</p>
+<p>"Pizza Delight never disappoints. Quick delivery and mouth-watering flavors. Highly recommended!"</p><p>- Sarah M.</p><br>
+
+<h2>Ready to order?</h2>
+<p>Experience the taste of perfection. Order now and enjoy a delightful pizza experience!</p>
+ <button type="order now" class="button">order now</button><br>
+</div><br>
+
+<div>
+  <h2>Quality Ingredients</h2>
+  <p>We use only the finest and freshest ingredients to craft our delicious pizzas</p>
+  <h2>Customization Options</h2>
+  <p>Customize your pizza with a variety of toppings, sauces, and crust options to suit your taste.</p>
+  <h2>Fast Delivery</h2>
+  <p>Enjoy quick and reliable delivery services to savor your pizza at its best.</p>
+</div>
+
+<div class="contact-form-container">
+  <section class="contact-form">
+    <div class="special-heading">
+      <h1>Contact Us</h1>
+      <form action="/contactus webpage" method="get">
+        <div class="label">
+          <label for="name">Your Name:</label>
+        </div><br>
+        <div>
+          <input type="text" id="name" name="name" placeholder="Umair Sattar ">
+        </div><br>
+        <div>
+          <label for="email">Your Email:</label>
+        </div><br>
+        <div>
+          <input type="email" id="email" name="email" placeholder="abcd@gmail.com">
+        </div><br>
+        <div class="label">
+          <label for="phone">Your Phone Number:</label>
+        </div><br>
+        <div>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        </div><br>
+  
+        <div>
+          <label for="message">Your Message:</label>
+        </div><br>
+        <div>
+          <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+        </div><br>
+        <div>
+          <button type="submit" class="button">Submit</button>
+          <button type="reset" class="button">Reset</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</div><br><br><br><br><br><br><br><br><br>
+<footer>
+  <p>&copy; 2024 Pizza Delight</p>
+</footer>
+
+</body>
+</html>
