@@ -15,19 +15,19 @@
 
 
 ## PIZZA DELIGHT WEBBPAGE  | SnapShots
+<br><br>
+
 ### 1.Main Page:
+![image](https://github.com/umairsattar142/Web-/assets/128280607/a7d85b13-6358-4865-82f4-cbd637281ef2)<br>
 
 
 ### 2.Animations:
+![image](https://github.com/umairsattar142/Web-/assets/128280607/b4e60f3f-ee95-4e21-b0fb-1db3b9b77783)<br>
 
+![image](https://github.com/umairsattar142/Web-/assets/128280607/c0bee79d-9ceb-4788-bec1-4f9df57ed0d4)<br>
 
 ### 3.Contact Page:
-
-
-
-
-
-
+![image](https://github.com/umairsattar142/Web-/assets/128280607/59bb879c-5803-44fd-a3b5-1914d2b8bc96<br>
 
 
 
