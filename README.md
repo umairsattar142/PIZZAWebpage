@@ -27,7 +27,7 @@
 ![image](https://github.com/umairsattar142/Web-/assets/128280607/c0bee79d-9ceb-4788-bec1-4f9df57ed0d4)<br>
 
 ### 3.Contact Page:
-![image](https://github.com/umairsattar142/Web-/assets/128280607/59bb879c-5803-44fd-a3b5-1914d2b8bc96<br>
+![image](https://github.com/umairsattar142/Web-/assets/128280607/59bb879c-5803-44fd-a3b5-1914d2b8bc96)<br>
 
 
 
